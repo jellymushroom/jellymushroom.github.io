@@ -1,0 +1,124 @@
+* {
+	font-family: Helvetica Nue, Helvetica, Arial, sans-serif
+}
+
+body {
+	background-color: #EEEEEE;
+}
+
+.nav {
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.75);
+	width: 100%;
+	display: inline-block;
+	border-bottom: 2px solid red;
+	z-index: 1;
+	box-shadow: 0px 5px 20px #333333;
+}
+
+.nav ul {
+	text-align: center;
+}
+
+.nav .head li {
+	display: inline-block;
+}
+
+.nav .head li a {
+	color: #0099FF;
+	text-align: center;
+	font-size: x-large;
+	font-weight: bold;
+}
+
+.nav .head .linkout {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.jumbotron {
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.jumbotron img {
+	padding-top: 34px;
+}
+
+.container {
+	text-align: center;
+}
+
+.footer {
+	text-align: center;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.75);
+	color: white;
+	margin-top: 34px;
+	border-top: 2px solid red;
+}
+
+.features, .reviews, .orderForm {
+	width: 1064px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	color: black;
+}
+
+.features ul li {
+	font-size: large;
+}
+
+.features img {
+	display: block;
+	margin: auto;
+}
+
+.features .notConvinced {
+	text-align: center;
+}
+
+a:link {
+	text-decoration: none;
+	color: 0077FF;
+}
+
+a:visited {
+	text-decoration: none;
+	color: 0077FF;
+}
+
+a:hover {
+	text-decoration: none;
+	color: red;
+}
+
+a:active {
+	text-decoration: bold;
+	color: 0077FF;
+}
+
+.reviews p {
+	font-size: large;
+	text-indent: 25px;
+}
+
+.reviews img {
+	margin: 5px
+}
+
+.readyToBuy {
+	text-align: center;
+}
+
+.jumbotron .expectedDelivery {
+	font-style: italic;
+}
+
+.note {
+	text-align: center;
+	font-size: x-small;
+	font-style: italic;
+}
