@@ -13,7 +13,6 @@ body {
 	display: inline-block;
 	border-bottom: 2px solid red;
 	z-index: 1;
-	/*box-shadow: 0px 5px 20px #333333;*/
 }
 
 .nav ul {
@@ -39,6 +38,9 @@ body {
 .jumbotron {
 	text-align: center;
 	margin-bottom: 0px;
+	width: 1054px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .jumbotron img {
@@ -117,8 +119,9 @@ a:active {
 	font-style: italic;
 }
 
-.note {
+.jumbotron .note {
 	text-align: center;
 	font-size: x-small;
 	font-style: italic;
+
 }
