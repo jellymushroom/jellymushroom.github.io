@@ -1,0 +1,101 @@
+.reason .reason-header h1 {
+	font-size: 46px;
+	font-weight: bold;
+	display: inline-block;
+}
+#r1 ul {
+	font-size: 16px;
+	margin: 15px;
+	margin-left: 35px;
+}
+
+.header {
+	width: 100%;
+	display: block;
+	line-height: 0;
+}
+
+.header-img {
+	width: 100%;
+}
+
+.reason-header {
+	margin: 0;
+	padding: 0.5%;
+	padding-left: 30px;
+	width: 100%;
+}
+#r1-header {
+	background-color: #F44336;
+	color: white;
+}
+
+#r2-header {
+	background-color: #4CAF50;
+	color: white;
+}
+
+#r3-header {
+	background-color: #2196F3;
+	color: white;
+}
+
+#r2-content p {
+	font-size: 16px;
+	margin: 15px;
+	margin-left: 50px;
+}
+
+#r2-content img {
+	width: 35vh;
+	max-width: 100%;
+}
+
+#awards-container {
+	overflow: hidden;
+}
+
+@keyframes awards-animation {
+	from {right: 0;}
+	to {right: 200%;}
+}
+@-webkit-keyframes awards-animation {
+	from {right: 0;}
+	to {right: 200%;}
+}
+@-moz-keyframes awards-animation {
+	from {right: 0;}
+	to {right: 200%;}
+}
+@-o-keyframes awards-animation {
+	from {right: 0;}
+	to {right: 200%;}
+}
+
+#awards {
+	position: relative;
+	right: 0;
+	width: 400%;
+	animation-name: awards-animation;
+	-webkit-animation-name: awards-animation;
+	-moz-animation-name: awards-animation;
+	-o-animation-name: awards-animation;
+	animation-duration: 20s;
+	-webkit-animation-duration: 20s;
+	-moz-animation-duration: 20s;
+	-o-animation-duration: 20s;
+	animation-timing-function: linear;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	-o-animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-o-animation-iteration-count: infinite;
+}
+
+@media screen and (max-width: 768px) {
+	.reason .reason-header h1 {
+		font-size: 24px;
+	}
+}
