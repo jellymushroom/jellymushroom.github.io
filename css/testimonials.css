@@ -1,7 +1,62 @@
-#note {
-    max-width: 100%;
-    padding: 1%;
-    text-align: center;
-    font-family: "Bebas Neue";
-    font-size: 13vmin;
+body {
+	margin-bottom: 115px;
+}
+.review-title {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.review-text {
+	text-align: justify;
+	font-size: 1.15em;
+}
+
+legend {
+	font-family: 'Bebas Neue';
+	font-size: 36px;
+}
+
+.rating {
+	color: #FFEB3B;
+	margin-left: 15px;
+	font-size: 1.15em;
+}
+.name {
+	margin-left: 15px;
+	font-size: 1em;
+}
+.header {
+	width: 100%;
+	display: block;
+	line-height: 0;
+}
+
+.header-img {
+	width: 100%;
+}
+.review {
+	margin: 12px;
+	padding: 1vw;
+	background-color: #81D4FA;
+}
+
+#form-container {
+	display: block;
+	margin: auto;
+	width: 350px;
+	padding: 5px;
+}
+button {
+	border : solid 0px #ffffff;
+	border-radius : 2px;
+	moz-border-radius : 2px;
+	color : #ffffff;
+	padding : 5px 11px;
+	background : #0055ff;
+	background : -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0055ff), color-stop(100%,#128ae6));
+	background : -moz-linear-gradient(top, #0055ff 0%, #128ae6 100%);
+	background : -webkit-linear-gradient(top, #0055ff 0%, #128ae6 100%);
+	background : -o-linear-gradient(top, #0055ff 0%, #128ae6 100%);
+	background : -ms-linear-gradient(top, #0055ff 0%, #128ae6 100%);
+	background : linear-gradient(top, #0055ff 0%, #128ae6 100%);
+	filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#0055ff', endColorstr='#128ae6',GradientType=0 );
 }
