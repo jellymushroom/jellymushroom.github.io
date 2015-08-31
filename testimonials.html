@@ -110,13 +110,13 @@
                 <fieldset id="testimonial">
                     <legend>Write Your Own Testimonial!</legend>
                     Name<br>
-                    <input type="text" name="name">
+                    <input type="text" name="name" required>
                     <br>
                     Email<br>
-                    <input type="text" name="_replyto">
+                    <input type="email" name="_replyto" required>
                     <br><br>
                     How would you rate Jellymushroom?<br>
-                    <input type="radio" name="rating" value="&#9733;&#9733;&#9733;&#9733;&#9733;"> &#9733;&#9733;&#9733;&#9733;&#9733;
+                    <input type="radio" name="rating" value="&#9733;&#9733;&#9733;&#9733;&#9733;" required> &#9733;&#9733;&#9733;&#9733;&#9733;
                     <br>
                     <input type="radio" name="rating" value="&#9733;&#9733;&#9733;&#9733;"> &#9733;&#9733;&#9733;&#9733;
                     <br>
@@ -128,7 +128,7 @@
                     <br>
                     Describe your experience with Jellymushroom.
                     <br>
-                    <textarea name="review" rows="6" cols="40"></textarea>
+                    <textarea name="review" rows="6" cols="40" required></textarea>
                     <input type="text" name="_gotcha" style="display:none">
                     <input type="hidden" name="_subject" value="Jellymushroom Testimonial Submission">
                     <input type="hidden" name="_next" value="submit_testimonial" />
